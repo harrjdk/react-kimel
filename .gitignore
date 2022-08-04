@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Crystal
+/lib/
+/bin/
+/.shards/
+*.dwarf
+
+/public/js/main.js
+/public/js/main.js.LICENSE.txt

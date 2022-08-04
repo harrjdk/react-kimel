@@ -1,0 +1,22 @@
+name: react-kimel
+version: 1.0.0
+
+authors:
+  - Devin <harrj902@protonmail.com>
+
+targets:
+  react-kemal:
+    main: src/main.cr
+
+crystal: 1.3.2
+
+license: Apache-2.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  kemal-basic-auth:
+    github: kemalcr/kemal-basic-auth
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+
